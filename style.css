@@ -23,7 +23,8 @@ ul {
 	justify-content: flex-end;
 }
 
-.quizStart {
+.quizStart,
+.ruling {
 	text-align: center;
 	background-color: gray;
 	width: 50%;
@@ -31,4 +32,33 @@ ul {
 	padding-bottom: 5%;
 	display: block;
 	margin: 0 auto;
+}
+
+.question{
+	text-align: center;
+	background-color: gray;
+	width: 50%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: block;
+	margin: 0 auto;
+}
+
+.optionsab,
+.optionscd {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.option {
+	width: 15%;
+	height: 5%;
+	background-color: black;
+	margin: 10px;
+}
+
+.option p {
+	color: white;
 }
